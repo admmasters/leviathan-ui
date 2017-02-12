@@ -8,7 +8,7 @@
     "storybook": "storybook start -p 7007"
   },
   "dependencies": {
-    "flow-bin": "^0.39.0",
+    "prettier": "^0.16.0",
     "react": "~15.4.0",
     "react-native": "0.41.2",
     "react-native-svg": "^5.1.5",
@@ -16,12 +16,23 @@
   },
   "devDependencies": {
     "@kadira/react-native-storybook": "^2.0.0",
+    "babel-eslint": "^7.1.1",
     "babel-jest": "18.0.0",
     "babel-preset-react-native": "1.9.1",
+    "eslint": "^3.14.1",
+    "eslint-plugin-prettier": "^2.0.0",
+    "eslint-plugin-react": "^6.9.0",
+    "flow-bin": "^0.39.0",
     "jest": "18.1.0",
-    "react-test-renderer": "~15.4.0"
+    "react-test-renderer": "^15.4.2"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "node_modules/(?!react-native)"
+    ],
+    "setupFiles": [
+      "./jest/setup.js"
+    ]
   }
 }

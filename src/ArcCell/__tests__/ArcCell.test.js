@@ -1,13 +1,26 @@
 // @flow
+import 'react-native';
 import React from 'react';
 import ArcCell from '../ArcCell';
 
-// Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
 
-test('renders correctly', () => {
+const mockTheme = {
+  arcStartColor: 'red',
+  arcEndColor: 'blue',
+  mainFontFamily: 'montserrat',
+  subTintColor: 'white',
+  tintColor: 'red',
+};
+
+// Mocks
+jest.mock('react-native-svg');
+jest.mock('../../Svg');
+
+// Tests
+it('renders correctly', () => {
   const tree = renderer.create(
-    <ArcCell />
-  ).toJSON();
+    <ArcCell height={200} width={200} theme={mockTheme} arcHeight={80} />,
+  );
   expect(tree).toMatchSnapshot();
 });
