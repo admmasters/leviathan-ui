@@ -1,7 +1,12 @@
 {
   "name": "leviathan-ui",
   "version": "0.0.1",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/admmasters/leviathan-ui.git"
+  },
+  "author": "Matt Revell <mattrevell82@me.com>",
+  "license": "MIT",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
