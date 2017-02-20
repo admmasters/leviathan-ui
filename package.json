@@ -10,6 +10,7 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
+    "test-watch": "jest --watch",
     "storybook": "storybook start -p 7007"
   },
   "main": "src/index.js",
