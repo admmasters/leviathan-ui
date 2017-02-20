@@ -9,9 +9,11 @@
   "license": "MIT",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
+    "startplus": "npm start | react-native run-ios",
     "test": "jest",
     "test-watch": "jest --watch",
-    "storybook": "storybook start -p 7007"
+    "storybook": "storybook start -p 7007 | react-native run-ios",
+    "ios": "react-native run-ios"
   },
   "main": "src/index.js",
   "dependencies": {
