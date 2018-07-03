@@ -13,7 +13,9 @@
     "test": "jest",
     "test-watch": "jest --watch",
     "storybook": "storybook start -p 7007 | react-native run-ios",
-    "ios": "react-native run-ios"
+    "ios": "react-native run-ios",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "main": "src/index.js",
   "dependencies": {
@@ -21,7 +23,8 @@
     "react": "~15.4.0",
     "react-native": "0.41.2",
     "react-native-svg": "^5.1.5",
-    "styled-components": "^1.4.3"
+    "styled-components": "^1.4.3",
+    "snyk": "^1.88.0"
   },
   "devDependencies": {
     "@kadira/react-native-storybook": "^2.0.0",
@@ -43,5 +46,6 @@
     "setupFiles": [
       "./jest/setup.js"
     ]
-  }
+  },
+  "snyk": true
 }
