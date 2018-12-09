@@ -18,7 +18,7 @@
   "main": "src/index.js",
   "dependencies": {
     "prettier": "^0.16.0",
-    "react": "~15.4.0",
+    "react": "~15.4.2",
     "react-native": "0.41.2",
     "react-native-svg": "^5.1.5",
     "styled-components": "^1.4.3"
