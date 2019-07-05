@@ -1,4 +1,7 @@
 # leviathan-ui
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/admmasters/leviathan-ui.svg)](https://greenkeeper.io/)
+
 A React Native component library designed for iOS and Android.
 
 # Summary
