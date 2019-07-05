@@ -17,23 +17,23 @@
   },
   "main": "src/index.js",
   "dependencies": {
-    "prettier": "^0.16.0",
-    "react": "~15.4.0",
-    "react-native": "0.41.2",
-    "react-native-svg": "^5.1.5",
-    "styled-components": "^1.4.3"
+    "prettier": "^1.18.2",
+    "react": "~16.8.6",
+    "react-native": "0.60.0",
+    "react-native-svg": "^9.5.1",
+    "styled-components": "^4.3.2"
   },
   "devDependencies": {
     "@kadira/react-native-storybook": "^2.0.0",
-    "babel-eslint": "^7.1.1",
-    "babel-jest": "18.0.0",
-    "babel-preset-react-native": "1.9.1",
-    "eslint": "^3.14.1",
-    "eslint-plugin-prettier": "^2.0.0",
-    "eslint-plugin-react": "^6.9.0",
-    "flow-bin": "^0.39.0",
-    "jest": "18.1.0",
-    "react-test-renderer": "^15.4.2"
+    "babel-eslint": "^10.0.2",
+    "babel-jest": "24.8.0",
+    "babel-preset-react-native": "4.0.1",
+    "eslint": "^6.0.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.2",
+    "flow-bin": "^0.102.0",
+    "jest": "24.8.0",
+    "react-test-renderer": "^16.8.6"
   },
   "jest": {
     "preset": "react-native",
